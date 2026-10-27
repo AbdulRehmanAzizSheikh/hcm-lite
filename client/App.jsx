@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Layout from './components/Layout';
@@ -48,5 +48,5 @@ function AppRoutes() {
 }
 
 export default function App() {
-  return <BrowserRouter><LanguageProvider><AuthProvider><AppRoutes /></AuthProvider></LanguageProvider></BrowserRouter>;
+  return <LanguageProvider><AuthProvider><AppRoutes /></AuthProvider></LanguageProvider>;
 }

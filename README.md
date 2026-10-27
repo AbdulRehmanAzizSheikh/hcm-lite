@@ -26,4 +26,3 @@ Default Gemini (gemini-3-flash-preview). Leave AI_API_KEY empty for free Pollina
 
 ## What's done
 All 25 functionalities + RBAC + analytics + AI (chat/summary/smart-leave/policy Q&A) + payslip PDF + audit log + i18n (EN/UR/Roman Urdu/AR) + user guide.
-EOF
